@@ -45,7 +45,7 @@ TARGET_USERIMAGES_USE_EXT4 := true
 BOARD_USES_LEGACY_MMAP := true
 
 # Kernel
-TARGET_KERNEL_SOURCE         := /home/phenomx4/android_kernel_zte_warplte
+TARGET_KERNEL_SOURCE         := kernel/zte/warplte
 TARGET_KERNEL_CONFIG         := warplte_defconfig
 TARGET_KERNEL_SELINUX_CONFIG := selinux_defconfig
 TARGET_PREBUILT_KERNEL := device/zte/warplte/zImage
