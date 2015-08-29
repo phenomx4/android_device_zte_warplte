@@ -1,0 +1,6 @@
+#============= init_shell ==============
+#allow init_shell labeledfs:filesystem remount;
+allow init_shell mmc_block_device:blk_file read;
+allow init_shell mmc_block_device:blk_file open;
+allow init_shell mmc_block_device:blk_file ioctl;
+allow init_shell vfat:dir search;

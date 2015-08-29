@@ -1,0 +1,4 @@
+#============= sysinit ==============
+allow sysinit wifi_data_file:dir { write remove_name getattr add_name };
+allow sysinit wifi_data_file:file { write getattr unlink open create };
+allow sysinit wifi_data_file:dir search;

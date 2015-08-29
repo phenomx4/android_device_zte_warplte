@@ -1,0 +1,5 @@
+#============= thermal-engine ==============
+allow thermal-engine self:netlink_kobject_uevent_socket { bind setopt };
+allow thermal-engine self:netlink_kobject_uevent_socket read;
+allow thermal-engine self:capability net_admin;
+allow thermal-engine sysfs_devices_system_cpu:file write;

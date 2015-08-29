@@ -1,0 +1,5 @@
+#============= vold ==============
+allow vold mmc_block_device:blk_file { read write };
+allow vold mmc_block_device:blk_file open;
+allow vold mmc_block_device:blk_file ioctl;
+allow vold mmc_block_device:blk_file getattr;

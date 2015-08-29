@@ -1,0 +1,5 @@
+#============= system_server ==============
+#allow system_server device:chr_file read;
+#allow system_server device:chr_file open;
+allow system_server device:chr_file ioctl;
+allow system_server time_daemon:unix_stream_socket connectto;

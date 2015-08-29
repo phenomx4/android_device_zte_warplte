@@ -1,0 +1,4 @@
+#============= mediaserver ==============
+allow mediaserver system_data_file:sock_file write;
+#allow mediaserver device:chr_file { read write };
+allow mediaserver shell_data_file:dir search;

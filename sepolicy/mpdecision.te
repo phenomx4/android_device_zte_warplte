@@ -1,0 +1,8 @@
+#============= mpdecision ==============
+allow mpdecision socket_device:sock_file setattr;
+allow mpdecision system_data_file:file append;
+allow mpdecision system_data_file:file open;
+allow mpdecision system_data_file:dir write;
+allow mpdecision system_data_file:dir add_name;
+allow mpdecision system_data_file:file create;
+
