@@ -135,6 +135,9 @@ TARGET_PROVIDES_LIBLIGHT := true
 # GPS
 BOARD_HAVE_NEW_QC_GPS := true
 
+# RIL
+BOARD_RIL_CLASS := ../../../device/zte/warplte/ril
+
 # Wifi
 TARGET_USES_WCNSS_CTRL          := true
 BOARD_HAS_QCOM_WLAN_SDK 	:= true
